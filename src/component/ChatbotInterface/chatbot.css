@@ -1,0 +1,20 @@
+.react-chatbot-kit-chat-container {
+    width: 100%; /* 宽度 */
+    min-height: 800px;
+    overflow: auto; /* 内容溢出时自动显示滚动条 */
+}
+
+.react-chatbot-kit-chat-message-container {
+    height: 100%; /* 宽度 */
+    overflow: auto; /* 内容溢出时自动显示滚动条 */
+}
+
+.custom-chatbot-container {
+    position: fixed;
+    margin: auto;
+    width: 80%;
+    top: 10%;
+    left: 10%;
+    z-index: 999;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5)
+}
